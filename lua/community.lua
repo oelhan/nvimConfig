@@ -8,6 +8,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },

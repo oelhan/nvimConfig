@@ -24,12 +24,6 @@ return {
     end,
   },
   {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    event = "InsertEnter",
-    config = function() require("copilot").setup {} end,
-  },
-  {
     "mfussenegger/nvim-dap",
     config = function()
       local dap, dapui = require "dap", require "dapui"
